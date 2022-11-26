@@ -1,0 +1,83 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.bg{
+    background-color: rgba(233, 251, 255, 0.975);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    text-align: center;
+}
+
+
+
+#VideoCam {
+    position: relative;
+    height: 400px;
+    width: 550px;
+    margin: 10px;
+    border: 2px solid green;
+}
+
+#c1 {
+
+    position: relative;
+    height: 400px;
+    width: 550px;
+    margin: 10px;
+    border: 2px solid green;
+}
+
+.bgcolorBars {
+
+    position: relative;
+    display: inline-flexbox;
+    justify-content: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+
+.red {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    color: red;
+}
+
+.green {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    color:green;
+}
+
+.blue {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    color: blue;
+}
+
+h5 {
+    font-family: serif;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        display: inline;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bgremover",
+  "version": "1.0.0",
+  "description": "A realtime video processing web application, which uses video input through web cam and then changes  background with other image or plane background.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivampanwar15/Realtime-Video-Processing-using-ChromaKey-GreenScreen-Effect.git"
+  },
+  "author": "Shivam Panwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivampanwar15/Realtime-Video-Processing-using-ChromaKey-GreenScreen-Effect/issues"
+  },
+  "homepage": "https://github.com/shivampanwar15/Realtime-Video-Processing-using-ChromaKey-GreenScreen-Effect#readme"
+}
